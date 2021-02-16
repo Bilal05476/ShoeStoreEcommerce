@@ -1,0 +1,54 @@
+.man {
+  background-color: #212121;
+  margin-top: 7.8rem;
+  color: goldenrod;
+  padding: 0.5rem;
+}
+.cardStyle {
+  text-decoration: none !important;
+}
+@media (max-width: 1024px) {
+  .man {
+    margin-top: 6.4rem;
+  }
+}
+@media (max-width: 767px) {
+  .man {
+    margin-top: 5.1rem;
+  }
+}
+@media (max-width: 768px) {
+  .man {
+    margin-top: 4.6rem;
+  }
+}
+@media (max-width: 540px) {
+  .man {
+    margin-top: 8.6rem;
+  }
+}
+@media (max-width: 411px) {
+  .man {
+    margin-top: 8.5rem;
+  }
+}
+@media (max-width: 414px) {
+  .man {
+    margin-top: 6.1rem;
+  }
+}
+@media (max-width: 375px) {
+  .man {
+    margin-top: 5.1rem;
+  }
+}
+@media (max-width: 320px) {
+  .man {
+    margin-top: 4.2rem;
+  }
+}
+@media (max-width: 280px) {
+  .man {
+    margin-top: 4.1rem;
+  }
+}

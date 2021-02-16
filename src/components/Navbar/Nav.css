@@ -1,0 +1,132 @@
+nav {
+  background-color: #212121;
+  border-bottom: 0.5px solid #424242;
+}
+.navigations {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-self: center;
+}
+.weblogo {
+  width: 80%;
+  margin-right: 1.2rem;
+}
+.details__div,
+.details__div1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: center;
+  padding: 0.5rem;
+}
+.account__details {
+  margin-left: -160px !important;
+}
+.avatar {
+  width: 10%;
+  border-radius: 50%;
+  margin-left: 40px;
+}
+.cart__link,
+.login__link {
+  text-decoration: none !important;
+}
+.cart__div i {
+  color: #ffe449;
+}
+.cart__div span {
+  color: #ffe449;
+  padding: 0.2rem;
+  font-size: 1.6rem;
+}
+.line {
+  height: 1px;
+  width: 22px;
+  background-color: white;
+  margin: 0.6rem;
+  margin-right: 0;
+}
+.menu__icons:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 1199px) {
+  .account__details {
+    margin-left: -110px !important;
+  }
+}
+@media (max-width: 992px) {
+  .account__details {
+    margin-left: -30px !important;
+  }
+  .avatar {
+    width: 15%;
+  }
+}
+@media (min-width: 767px) {
+  .icon__div > div {
+    display: none !important;
+  }
+  .details__div1 {
+    display: none !important;
+  }
+}
+@media (max-width: 767px) {
+  .account__details {
+    margin-left: -350px !important;
+  }
+  .avatar {
+    width: 10%;
+    margin-left: 0;
+  }
+  .details__div {
+    display: none;
+  }
+  .icon__div > div {
+    display: block !important;
+  }
+  .weblogo {
+    width: 100%;
+    margin-left: -2rem;
+  }
+  .navigations {
+    justify-content: space-between;
+  }
+  /* .icon__div {
+    margin-left: 1.8rem;
+  } */
+}
+@media (max-width: 600px) {
+  .account__details {
+    margin-left: -320px !important;
+  }
+}
+@media (max-width: 414px) {
+  .account__details {
+    margin-left: -210px !important;
+  }
+}
+@media (max-width: 375px) {
+  .account__details {
+    margin-left: -170px !important;
+  }
+}
+@media (max-width: 360px) {
+  .account__details {
+    margin-left: -160px !important;
+  }
+}
+@media (max-width: 320px) {
+  .account__details {
+    margin-left: -120px !important;
+  }
+}
+@media (max-width: 280px) {
+  .account__details {
+    margin-left: -80px !important;
+  }
+  .avatar {
+    width: 13%;
+  }
+}

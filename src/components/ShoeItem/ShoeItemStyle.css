@@ -1,0 +1,76 @@
+.shoeItem {
+  background-color: #303030;
+  margin-top: 7.8rem;
+  color: goldenrod;
+  padding: 0.5rem;
+}
+.shoeDetails {
+  margin-top: 2rem;
+}
+.shoeDetails h3 {
+  font-size: 3.2rem;
+}
+.shoeDetails p {
+  font-size: 1.5rem;
+}
+.shoeDetails .addCart {
+  font-size: 1.2rem;
+  border: none;
+  background-color: goldenrod !important;
+  letter-spacing: 0.1rem;
+  outline: none !important;
+  font-weight: 900;
+}
+.shoeDetails .addCart:hover {
+  margin-left: 0.4rem;
+  transition: 0.5s;
+  outline: none !important;
+}
+@media (max-width: 1024px) {
+  .shoeItem {
+    margin-top: 6.4rem;
+  }
+}
+@media (max-width: 767px) {
+  .shoeItem {
+    margin-top: 5.1rem;
+  }
+  .shoeDetails {
+    margin-top: 1rem;
+  }
+}
+@media (max-width: 768px) {
+  .shoeItem {
+    margin-top: 4.6rem;
+  }
+}
+@media (max-width: 540px) {
+  .shoeItem {
+    margin-top: 8.6rem;
+  }
+}
+@media (max-width: 411px) {
+  .shoeItem {
+    margin-top: 8.5rem;
+  }
+}
+@media (max-width: 414px) {
+  .shoeItem {
+    margin-top: 6.1rem;
+  }
+}
+@media (max-width: 375px) {
+  .shoeItem {
+    margin-top: 5.1rem;
+  }
+}
+@media (max-width: 320px) {
+  .shoeItem {
+    margin-top: 4.2rem;
+  }
+}
+@media (max-width: 280px) {
+  .shoeItem {
+    margin-top: 4.1rem;
+  }
+}

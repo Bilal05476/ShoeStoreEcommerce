@@ -1,0 +1,112 @@
+footer {
+  background-color: #212121;
+  border-top: 0.5px solid #424242;
+  border-bottom: 0.5px solid #424242;
+}
+.logo {
+  width: 20%;
+  margin: auto 0.4rem;
+}
+.credit__div,
+.subscribe__div,
+.social__div {
+  margin: 3rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.credits {
+  text-align: justify;
+  font-size: 1.2rem;
+  margin: 0;
+}
+.link__div {
+  margin: 3rem auto;
+  display: flex;
+  flex-direction: column;
+  padding-left: 5.9rem;
+  padding-right: 0;
+}
+.link__div h4 {
+  margin-bottom: 2rem !important;
+}
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2rem;
+  padding-left: 0;
+}
+.nav-link:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  color: #ffe449;
+  padding-left: 1.2rem;
+}
+.social__div {
+  margin-top: 2.5rem;
+}
+.social__icon {
+  background-color: #424242;
+  font-size: 1.7rem;
+  margin: 1.2rem 0.4rem auto 0.4rem;
+  padding: 0.8rem;
+  border-radius: 4px;
+  color: #fff;
+}
+.social__icon:hover {
+  transition: 0.5s;
+  background-color: #fff;
+  cursor: pointer;
+  color: #212121;
+}
+.subs,
+.social__icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+.subscribe__div input {
+  border-radius: 12px !important;
+  outline: none !important;
+  border: 1.2px solid;
+  padding: 1.5rem;
+  margin: 1.2rem auto;
+  width: 100%;
+}
+.subscribe__div button {
+  border-radius: 8px !important;
+  padding: 0.2rem;
+  font-size: 1.6rem;
+  border: none;
+  outline: none;
+  color: #fff !important;
+}
+.subscribe__div button:hover {
+  background-color: #424242;
+  transition: 0.5s;
+}
+.subscribe__div button i:hover {
+  color: goldenrod;
+}
+.copyright {
+  color: #fff;
+  margin: 1.2rem auto;
+}
+@media (max-width: 767px) {
+  .link__div {
+    margin: 3rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  .nav-link:hover {
+    padding-left: 0.6rem;
+  }
+  .nav-link {
+    padding-left: 0.2rem;
+  }
+}

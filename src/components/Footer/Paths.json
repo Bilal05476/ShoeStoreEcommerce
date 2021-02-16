@@ -1,0 +1,39 @@
+{
+    "paths" : [
+        {
+            "shoeId" : 0,
+            "shoeName" : "Leather Shoes",
+            "param" : "/leather"
+        },
+        {
+            "shoeId" : 1,
+            "shoeName" : "Wooden Shoes",
+            "param" : "/wooden"
+        },
+        {
+            "shoeId" : 2,
+            "shoeName" : "Nike Shoes",
+            "param" : "/nike"
+        },
+        {
+            "shoeId" : 3,
+            "shoeName" : "Adidas Shoes",
+            "param" : "/adidas"
+        },
+        {
+            "shoeId" : 4,
+            "shoeName" : "Man Shoes",
+            "param" : "/man"
+        },
+        {
+            "shoeId" : 5,
+            "shoeName" : "Women Shoes",
+            "param" : "/women"
+        },
+        {
+            "shoeId" : 6,
+            "shoeName" : "All Shoes",
+            "param" : "/product"
+        }
+    ]
+}

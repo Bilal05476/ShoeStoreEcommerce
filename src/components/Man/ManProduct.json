@@ -1,0 +1,10 @@
+{
+    "Man-shoes" : 
+        {
+            "shoeId" : 0,
+            "shoeName" : "Man Shoes",
+            "description" : "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here'.",
+            "img" : "https://media.wired.com/photos/5c7082419d5bf17d94aac203/191:100/w_2400,h_1256,c_limit/Topo-Athletic-Ultraventure_2.jpg",
+            "price" : 39.99
+        }
+}

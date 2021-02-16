@@ -1,0 +1,54 @@
+.adidas {
+  background-color: #212121;
+  margin-top: 7.8rem;
+  color: goldenrod;
+  padding: 0.5rem;
+}
+.cardStyle {
+  text-decoration: none !important;
+}
+@media (max-width: 1024px) {
+  .adidas {
+    margin-top: 6.4rem;
+  }
+}
+@media (max-width: 767px) {
+  .adidas {
+    margin-top: 5.1rem;
+  }
+}
+@media (max-width: 768px) {
+  .adidas {
+    margin-top: 4.6rem;
+  }
+}
+@media (max-width: 540px) {
+  .adidas {
+    margin-top: 8.6rem;
+  }
+}
+@media (max-width: 411px) {
+  .adidas {
+    margin-top: 8.5rem;
+  }
+}
+@media (max-width: 414px) {
+  .adidas {
+    margin-top: 6.1rem;
+  }
+}
+@media (max-width: 375px) {
+  .adidas {
+    margin-top: 5.1rem;
+  }
+}
+@media (max-width: 320px) {
+  .adidas {
+    margin-top: 4.2rem;
+  }
+}
+@media (max-width: 280px) {
+  .adidas {
+    margin-top: 4.1rem;
+  }
+}

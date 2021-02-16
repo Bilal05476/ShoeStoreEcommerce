@@ -1,0 +1,148 @@
+.login {
+  background-color: #212121;
+  margin-top: 7.8rem;
+  color: #303030;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal__btn1,
+.modal__btn2 {
+  border-radius: 2rem !important;
+  background-color: transparent !important;
+  color: #fff !important;
+  border: 0.1px solid #fff !important;
+  outline: none;
+  font-size: 1.2rem !important;
+  padding: 0.8rem !important;
+}
+.modal__btn1:hover,
+.modal__btn2:hover {
+  background-color: #424242 !important;
+  color: #fff !important;
+  transition: 0.5s;
+  border: 0.1px solid #424242 !important;
+}
+.modal {
+  border-radius: none !important;
+  color: goldenrod !important;
+}
+.modal-title {
+  font-size: 2.5rem !important;
+  text-align: center !important;
+}
+.close {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.close span {
+  font-size: 2.5rem;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: goldenrod !important;
+}
+.modal-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 0.1px solid goldenrod;
+}
+.modal-body {
+  display: flex;
+  flex-direction: column;
+  font-size: 3.5rem;
+}
+input {
+  outline: none !important;
+  border: none !important;
+  border-bottom: 0.1px solid goldenrod !important;
+  border-radius: none !important;
+  color: goldenrod !important;
+  letter-spacing: 0.1rem;
+  margin: auto 1rem;
+  width: 90% !important;
+}
+.modal-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-top: none;
+}
+.modal-footer .btn {
+  background-color: goldenrod !important;
+  color: #fff !important;
+  border-radius: 3.5rem !important;
+  padding: 0.8rem !important;
+  font-size: 1.5rem !important;
+  outline: none !important;
+}
+.modal-footer .btn:hover {
+  background-color: transparent !important;
+  color: goldenrod !important;
+  transform: translateY(-2px);
+  transition: 0.5s;
+}
+.google__auth {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1.2rem auto;
+}
+.google__auth .btn {
+  margin: 1.2rem auto;
+  border-radius: 3.5rem !important;
+  font-size: 1.5rem !important;
+  outline: none !important;
+  padding: 0.8rem !important;
+}
+@media (max-width: 1024px) {
+  .login {
+    margin-top: 6.4rem;
+  }
+}
+@media (max-width: 767px) {
+  .login {
+    margin-top: 5.1rem;
+  }
+}
+@media (max-width: 768px) {
+  .login {
+    margin-top: 4.6rem;
+  }
+}
+@media (max-width: 540px) {
+  .login {
+    margin-top: 8.6rem;
+  }
+}
+@media (max-width: 411px) {
+  .login {
+    margin-top: 8.5rem;
+  }
+}
+@media (max-width: 414px) {
+  .login {
+    margin-top: 6.1rem;
+  }
+}
+@media (max-width: 375px) {
+  .login {
+    margin-top: 5.1rem;
+  }
+}
+@media (max-width: 320px) {
+  .login {
+    margin-top: 4.2rem;
+  }
+}
+@media (max-width: 280px) {
+  .login {
+    margin-top: 4.1rem;
+  }
+}
